@@ -1,0 +1,2 @@
+print("green")
+print("yellow")
