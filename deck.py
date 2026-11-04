@@ -19,10 +19,7 @@ class Deck:
     def shuffle_deck(self):
         random.shuffle(self.cards)
 
-#draws a card for the player. if there are no cards in the deck, it also returns that to the main program.
+#draws a card for the player. 
     def draw_card(self):
-        if self.cards == []:
-                return None
-        else:
-                return self.cards.pop()
+        return self.cards.pop()
   
