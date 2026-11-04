@@ -22,8 +22,8 @@ class Card:
               "8" : 8,
               "9" : 9,
               "10" : 10,
-              "jack" : 11,
-              "queen" : 12,
-              "king" : 13,
-              "ace" : 14,
+              "Jack" : 11,
+              "Queen" : 12,
+              "King" : 13,
+              "Ace" : 14,
         }
