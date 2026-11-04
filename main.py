@@ -11,9 +11,9 @@ player2 = Player("Player2")
 
 # Shuffle both decks so the cards are in a random order
 
-player1.deck.shuffle()
+player1.deck.shuffle_deck()
 
-player2.deck.shuffle()
+player2.deck.shuffle_deck()
 
 rounds = 0
 
