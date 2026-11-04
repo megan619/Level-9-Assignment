@@ -1,16 +1,18 @@
+from deck import Deck
+
 class Player:
     def __init__(self, name):
         self.name = name
-        self.player_cards = []
+        self.deck = Deck()
 
-    def receive_cards(self, cards):
-        self.player_cards.extend(cards)
+    def collect_cards(self, cards):
+        self.deck.cards.extend(cards)
 
     def play_card(self):
-        return self.player_cards.pop(0)
+        return self.deck.cards.pop(0)
         
     def card_count(self):
-        return len(self.player_cards)
+        return len(self.deck.cards)
 
     def has_cards(self):
         if self.card_count() >= 1:
