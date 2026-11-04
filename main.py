@@ -23,9 +23,9 @@ while player1.card_count() > 0 and player2.card_count() > 0:
 
     rounds += 1
 
-    card1 = player1.draw_card()
+    card1 = player1.deck.draw_card()
 
-    card2 = player2.draw_card()
+    card2 = player2.deck.draw_card()
 
     print("Player 1 drew:", card1)
     print("Player 2 drew:", card2)
@@ -49,8 +49,8 @@ while player1.card_count() > 0 and player2.card_count() > 0:
         if player1.card_count() == 0 or player2.card_count() == 0:
             break
         
-        card1= player1.draw_card()
-        card2 = player2.draw_card()
+        card1= player1.deck.draw_card()
+        card2 = player2.deck.draw_card()
 
         print("Player 1 drew:", card1)
         print("Player 2 drew:", card2)
