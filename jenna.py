@@ -7,7 +7,7 @@ rank = ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "K
 suit = ["Hearts", "Diamonds", "Spades", "Clubs"]
 
 #when drawing a random card
-#variable_name_here = Card(random.choice(rank), randomchoice.(suit))
+#variable_name_here = Card(random.choice(rank), randomchoice.(suite))
 
 # card class
 class Card:
