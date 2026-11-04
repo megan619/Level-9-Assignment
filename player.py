@@ -15,7 +15,7 @@ class Player:
         self.deck.cards.extend(cards)
 
     # Removes the top card from the player's pile and returns it.
-    def play_card(self):
+    def draw_card(self):
         return self.deck.cards.pop(0)
 
     # Returns how many cards the player currently has.
