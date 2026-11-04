@@ -13,6 +13,8 @@ class Player:
     # Adds won cards to the bottom of the player's pile (the front of the list),
     # so they aren't drawn again right away.
     def collect_cards(self, cards):
+        import random
+        random.shuffle(cards)
         self.deck.cards = cards + self.deck.cards
 
     # Returns how many cards the player currently has.
