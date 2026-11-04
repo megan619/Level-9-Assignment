@@ -1,2 +1,0 @@
-print("green")
-print("yellow")
